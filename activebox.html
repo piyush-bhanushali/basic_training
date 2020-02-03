@@ -2,6 +2,7 @@
 <html>
 <head>
 <meta name="viewport" content="width=device-width, initial-scale=1">
+
 <style>
 .container {
   position: relative;
@@ -13,12 +14,15 @@
 .topnav {
   width: auto;
   position: absolute;
-  top: 8px;
-  left: 450px;
+  top: 0px;
+}
+.topnav .logoimage{
+    margin-top: 15px;
+    margin-right: 100px;
 }
 ul{
     list-style-type: none;
-    margin: 0;
+    margin-left: 600px;
     padding: 0;
     overflow: hidden;
 }
@@ -40,61 +44,61 @@ li a:hover{
     top: 8px;
     right: 700px;
 }
-
-.top-right {
-  position: absolute;
-  top: 8px;
-  right: 16px;
+.header-content{
+    position: absolute;
+    margin-top: 20px;
+    left: 250px;
+}
+.header-button{
+    position: relative;
+    margin-top: 250px;
+    margin-left: 150px;
+}
+.header-button button{
+    border-radius: 5px;
+    height: 35px;
+    width: 120px;
+    border: none;
+    background-color: crimson;
+    color: white;
 }
 
-.bottom-right {
-  position: absolute;
-  bottom: 8px;
-  right: 16px;
-}
-
-.centered {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-}
 </style>
 </head>
 <body>
 
 <div class="container">
-  <img src="images/banner.jpg" alt="banner" style="width:100%; height: 350px;">
-  <div class="bottom-left">Bottom Left</div>
+  <img src="images/banner.jpg" alt="banner" style="width:100%; height: 400px;">
+  
   <div class="topnav">
       <span class="logoimage"><img src="images/logo.png"/></span>
-      <!--d-->
+      <!--header content-->
       <ul>
 
           
-          <li><a href="#" style="color: white;">FEATURES</a></li>
-          <li><a href="#" style="color: white;">WORKS</a></li>
-          <li><a href="#" style="color: white;">OUR TEAM</a></li>
-          <li><a href="#" style="color: white;">TESTIMONIALS</a></li>
-          <li><a href="#" style="color: white;">DOWNLOAD</a></li>
+          <li><a href="#">FEATURES</a></li>
+          <li><a href="#">WORKS</a></li>
+          <li><a href="#">OUR TEAM</a></li>
+          <li><a href="#">TESTIMONIALS</a></li>
+          <li><a href="#">DOWNLOAD</a></li>
       </ul>
-      <!--Header Content>
-      <div>
-          <h1>YOUR FAVORITE ONE PAGE MULTI PURPOSE TEMPLATE</h1>
-          <h6>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</h6>
+
+      <div class="header-content">
+      <h1>YOUR FAVORITE ONE PAGE <br> MULTI PURPOSE TEMPLATE</h1>
+      <h5>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,<br> when an unknown printer took a galley of type and scrambled it to make a type specimen book.</h5>
       </div>
-
-      <!--Header Content Close-->
-      <!--d-->
-      <!--<a href="#" style="color: white;">FEATURES</a>
-      <a href="#" style="color: white;">WORKS</a>
-      <a href="#" style="color: white;">OUR TEAM</a>
-      <a href="#" style="color: white;">TESTIMONIALS</a>
-      <a href="#" style="color: white;">DOWNLOAD</a>-->
+      <div class="header-button">
+        <button>FIND OUT MORE</button>
+      </div>
+      <!--Header Content-->
+      
     </div>
-
-  
 </div>
+<section>
+    <div class="works-section">
+
+    </div>
+</section>
 
 </body>
 </html> 
